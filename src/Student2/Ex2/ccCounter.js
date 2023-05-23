@@ -14,7 +14,7 @@ export const Counter = () => {
 
   return (
     <div className="Main">
-      <button onClick={handleOnClick}>Counter</button>
+      <button className= "Carisma" onClick={handleOnClick}>Counter</button>
       Counter: {counter}
     </div>
   )
