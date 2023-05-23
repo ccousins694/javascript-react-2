@@ -5,5 +5,9 @@
 }
 
 body {
-    background-color: lightgray
+    background-color: greenyellow
+}
+
+button{
+    color: blueviolet;
 }

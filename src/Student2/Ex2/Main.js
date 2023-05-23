@@ -1,10 +1,11 @@
-import React from 'react'
-import './Main.css'
+import React from "react";
+import { Counter } from "./ccCounter"; 
+import "./Main.css";
 
 export const Main = () => {
   return (
-    <div>
-      TODO...
+    <div className="Main">
+      <Counter />
     </div>
-  )
-}
+  );
+};
