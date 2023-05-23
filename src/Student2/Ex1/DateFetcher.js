@@ -7,8 +7,7 @@ export const DateFetcher = () => {
 
   return (
     <div className="Main">
-      {/* the below is a method because it's attached to something else (new Date().getUTCDate()) */}
-      <button onClick={() => setDate(new Date().getUTCDate())}>Update!</button>
+      <button onClick={() => setDate(new Date().toUTCString())}>Push</button>
       UTC Date: {date}
     </div>
   )
